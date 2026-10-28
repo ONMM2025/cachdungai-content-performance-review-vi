@@ -1,6 +1,6 @@
 ---
 name: content-performance-review-vi
-description: Phân tích số liệu website và mạng xã hội để tìm xu hướng, đề xuất thử nghiệm tiếp theo có thể đo lường. Dùng khi rà traffic blog, reach fan page, lượt nhấp, tương tác và hiệu quả nội dung; không khẳng định nguyên nhân từ dữ liệu yếu.
+description: Phân tích số liệu website và mạng xã hội để đề xuất thử nghiệm nội dung đo được. Dùng khi có dữ liệu theo thời gian và mục tiêu rõ; không suy diễn nguyên nhân từ tương quan yếu.
 ---
 
 # Đánh giá hiệu quả nội dung
@@ -15,6 +15,7 @@ Giúp người dùng biết nội dung nào đang đạt mục tiêu, dữ liệ
 - Kênh và mục tiêu: traffic, reach, nhấp, giữ chân, lưu/chia sẻ, đăng ký hoặc chuyển đổi.
 - Nội dung, thời điểm đăng và thay đổi đã thực hiện.
 - Nếu có: baseline, ngân sách quảng cáo, chiến dịch, nguồn traffic và tiêu chí thành công.
+- Phân biệt dữ liệu organic/paid, công cụ nguồn và tên cột xuất dữ liệu nếu có.
 
 Nếu thiếu định nghĩa chỉ số, nền tảng hoặc khoảng thời gian, nêu rõ trước khi so sánh. Không tự đọc số mờ như thể chắc chắn.
 
@@ -22,7 +23,7 @@ Nếu thiếu định nghĩa chỉ số, nền tảng hoặc khoảng thời gia
 
 1. Kiểm tra khoảng thời gian, đơn vị, mẫu số, thiếu ô, dữ liệu trùng và thay đổi cách đo.
 2. Phân biệt số liệu theo kênh và mục tiêu. Reach không đồng nghĩa click; lượt xem không đồng nghĩa người xem đã hiểu; engagement không đồng nghĩa traffic chất lượng.
-3. Tính tỷ lệ khi có đủ mẫu số và định nghĩa phù hợp. Nêu công thức cho CTR, tỷ lệ tương tác hoặc chuyển đổi nếu cần.
+3. Chỉ tính tỷ lệ khi có đủ tử số, mẫu số và định nghĩa. Ghi công thức, tên cột nguồn và khoảng thời gian cho từng tỷ lệ; phân biệt click link với mọi click, tương tác trên reach với trên impressions, và không gộp organic với paid.
 4. So sánh với baseline tương đồng: cùng nền tảng, định dạng, khoảng thời gian và điều kiện phân phối gần nhau.
 5. Nhóm bài theo chủ đề, hook, định dạng, độ dài, CTA và mục tiêu. Báo nếu mẫu quá nhỏ để so sánh đáng tin.
 6. Viết các quan sát đúng với dữ liệu. Sau đó mới nêu giả thuyết giải thích và yếu tố nhiễu có thể có.
@@ -34,6 +35,13 @@ Nếu thiếu định nghĩa chỉ số, nền tảng hoặc khoảng thời gia
 ### Kiểm tra dữ liệu
 
 Nêu lỗi, thiếu dữ liệu, định nghĩa mơ hồ và mức tin cậy.
+
+### Từ điển chỉ số
+
+| Chỉ số | Tử số | Mẫu số | Nguồn/cột dữ liệu | Khoảng thời gian |
+|---|---|---|---|---|
+
+Chỉ đưa chỉ số có định nghĩa và mẫu số rõ vào phần so sánh.
 
 ### Phát hiện
 
